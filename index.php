@@ -2,14 +2,7 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title> - jsFiddle demo</title>
-  
-  <script type='text/javascript' src='/js/lib/dummy.js'></script>
-  
-  
-  
-  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
-  
+  <title>Finlist</title>
     
       <script type='text/javascript' src="<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">"></script>
     
@@ -174,9 +167,8 @@ window.onload=function(){
 }//]]>  
 
 </script>
+</head>
 
-
-<script src="http://debug.phonegap.com/target/target-script-min.js#jsf_tty"></script></head>
 <body>
   <div class="container">
     <div class="logo">Finlist</div>
