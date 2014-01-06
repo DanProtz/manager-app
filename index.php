@@ -26,7 +26,7 @@ width:100%;
 height:70%;
 margin:auto;
     color:white;
-    background:url(http://bitcoinmagazine.com/wp-content/uploads/2013/06/wall-street-sign-pic.jpg)no-repeat;
+    background:url(http://upload.wikimedia.org/wikipedia/commons/6/62/Manhattan,_New_York2.JPG)no-repeat;
 background-size:100% 100%;
 }
 .footer {
