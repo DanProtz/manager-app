@@ -26,7 +26,7 @@ width:100%;
 height:70%;
 margin:auto;
     color:white;
-    background:url(http://upload.wikimedia.org/wikipedia/commons/6/62/Manhattan,_New_York2.JPG)no-repeat;
+    background:url(http://ih0.redbubble.net/image.7083569.8278/flat,550x550,075,f.jpg)no-repeat;
 background-size:100% 100%;
 }
 .footer {
