@@ -191,15 +191,15 @@ window.onload=function(){
     </div>
 <div class="footer">
     <div class="leftex">
-        <strong>1)Who?</strong><br>
+        <strong>Who?</strong><br>
         Private investors.Account size starting at $10,000.
         </br> </div>
     <div class="centerex">
-                <strong>2)Why?</strong><br>
+                <strong>Why?</strong><br>
         Easily invest with the best managers without inflated fees, fund administration costs or wealth advisor mark-ups.
         </br>   </div>
     <div class="rightex">
-                <strong>3)How?</strong><br>
+                <strong>How?</strong><br>
         Choose from select strategies or use one of our tailored solutions.
    </br> </div>
 </div>
