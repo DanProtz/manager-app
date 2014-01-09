@@ -8,9 +8,18 @@
     
   
   <style type='text/css'>
-    body {
+    ody {
 height: 100%; overflow: auto; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; position: absolute; width: 100%;
 font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+header {
+ width:auto;
+    height:20%;
+    margin:auto; 
+    background:#0F2124;
+    font-size:300%;
+    color:white;
+    border-bottom:1px solid white;
 }
 h1 {
   font-size: 5.9vw;
@@ -27,7 +36,7 @@ height:70%;
 margin:auto;
     color:white;
     background:url(http://ih0.redbubble.net/image.7083569.8278/flat,550x550,075,f.jpg)no-repeat;
-background-size:100% 130%;
+background-size:100% 120%;
 }
 .footer {
 width:auto;
@@ -39,11 +48,16 @@ font-size:120%;
    color: #65676b;
 }
 .logo {
-font-size:200%;
-font-family: "Lucida Bright", Georgia, serif;
-    margin:0% 1% 0% 1%;
+   font-family: "Lucida Bright", Georgia, serif;
+    margin:0% 10% 0% 0%;
+text-align:center;
 }
-
+.loga {
+    width:auto;
+    height:10%;
+    margin:0% 1% 2% 1%;
+    visibility:invisible;
+}
 .headline {
 font-size:300%;    
 font-weight:400;
@@ -53,7 +67,7 @@ text-align:center;
 .bottomheadline {
     font-size:150%;    
     text-align:center;
-    margin-top:5%;
+    margin-top:6%;
 }
 .bullets {
 margin:5% 0% 0% 0%;
@@ -66,9 +80,10 @@ margin:5% 30% 5% 30%;
 background:none;
 }
 input[type=submit]  {  
-    width: auto;  
+    width: auto;
+    height:auto;
     padding: 9px 15px;  
-    font-size: 14px;  
+    font-size: 15px;  
     color: #FFFFFF;
     cursor:pointer;
     }  
@@ -154,6 +169,20 @@ input[type=email]:focus, textarea:focus {
     border-color: #C9C9C9;
 }
 
+span {
+    
+display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+            opacity: 1;
+
+    background: rgba(0,0,0,.5);
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
   </style>
   
 
@@ -170,15 +199,20 @@ window.onload=function(){
 </head>
 
 <body>
-  <div class="container">
-    <div class="logo">Finlist</div>
-    
+  <header>
+                    <div class="loga"></div>
+
+        <div class="logo">-ProVest-</div>
+</header>
+<div class="container">
+    <span> 
+                <div class="loga"></div>
+
     <div class="headline">
         Exclusive accounts with the world's best money managers.</div>
     
     <div class="bottomheadline">
-        Finlist gives you direct access to institutional level strategies typically open<br> only to large investors
-           such as pensions, Fund of Funds or professional advisors.
+        ProVest gives you direct access to high quality investment strategies typically available<br> only to institutions and professional wealth advisors.
         </br>    </div>
     <div class="forma">
         <form>
@@ -189,17 +223,17 @@ window.onload=function(){
     
    
     </div>
+</span>
 <div class="footer">
     <div class="leftex">
-        <strong>Who?</strong><br>
-        Private investors.Account size starting at $10,000.
+        <strong>Who</strong><br>
+        Private investors.  Managed accounts starting at $10,000.
         </br> </div>
     <div class="centerex">
-                <strong>Why?</strong><br>
-        Easily invest with the best managers without inflated fees, fund administration costs or wealth advisor mark-ups.
-        </br>   </div>
+                <strong>Why</strong><br>
+Easily find and invest with the best managers without inflated commissions, fund administration costs or wealth advisor mark-ups.        </br>   </div>
     <div class="rightex">
-                <strong>How?</strong><br>
+                <strong>How</strong><br>
         Choose from select strategies or use one of our tailored solutions.
    </br> </div>
 </div>
