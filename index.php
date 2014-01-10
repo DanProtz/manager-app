@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>ProVest</title>
+  <title>ProsVest</title>
     
       <script type='text/javascript' src="<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">"></script>
     
@@ -202,13 +202,13 @@ window.onload=function(){
 <body>
 <div class="container">
     <span> 
-                <div class="logo">-ProVest-</div>
+                <div class="logo">-ProsVest-</div>
 
     <div class="headline">
         Exclusive accounts with the world's best money managers.</div>
     
     <div class="bottomheadline">
-        ProVest gives you direct access to high quality investment strategies typically available<br> only to institutions and professional wealth advisors.
+        ProsVest gives you direct access to high quality investment strategies typically available<br> only to institutions and professional wealth advisors.
         </br>    </div>
     <div class="forma">
         <form action="http://prosvest.us3.list-manage.com/subscribe/post?u=8fdf6cab91f7359a4309d5313&amp;id=4e69de2f24" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
