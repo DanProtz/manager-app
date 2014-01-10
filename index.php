@@ -49,7 +49,7 @@ font-size:120%;
 }
 .logo {
    font-family: "Lucida Bright", Georgia, serif;
-    margin:0% 10% 0% 0%;
+    margin:0% 8% 0% 0%;
 text-align:center;
         font-size:300%;
 }
