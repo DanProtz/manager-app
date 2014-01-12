@@ -8,9 +8,10 @@
     
   
   <style type='text/css'>
-   body {
+  body {
 height: 100%; overflow: auto; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; position: absolute; width: 100%;
 font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    background:#F4F4F2;
 }
 header {
  width:auto;
@@ -35,7 +36,7 @@ width:100%;
 height:70%;
 margin:auto;
     color:white;
-    background:url(http://ih0.redbubble.net/image.7083569.8278/flat,550x550,075,f.jpg)no-repeat;
+ background:url(http://ih0.redbubble.net/image.7083569.8278/flat,550x550,075,f.jpg)no-repeat;
 background-size:100% 120%;
 }
 .footer {
@@ -43,13 +44,11 @@ width:auto;
 height:30%;
 margin:auto;
 background:#F4F4F2;
-
 font-size:120%;
    color: #65676b;
 }
 .logo {
    font-family: "Lucida Bright", Georgia, serif;
-    margin:0% 8% 0% 0%;
 text-align:center;
         font-size:300%;
 }
@@ -68,7 +67,7 @@ text-align:center;
 .bottomheadline {
     font-size:150%;    
     text-align:center;
-    margin-top:6%;
+    margin-top:4%;
 }
 .bullets {
 margin:5% 0% 0% 0%;
@@ -77,7 +76,7 @@ margin:5% 0% 0% 0%;
 .forma {
 width:50%;
 height:25%;
-margin:5% 30% 5% 30%;
+margin:3% 30% 3% 30%;
 background:none;
 }
 input[type=submit]  {  
@@ -87,6 +86,9 @@ input[type=submit]  {
     font-size: 15px;  
     color: #FFFFFF;
     cursor:pointer;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
     }  
 .btn { 
   color: #ffffff; 
@@ -102,12 +104,18 @@ input[type=submit]  {
   color: #ffffff; 
   background-color: #1785E6; 
   border-color: #208FE3; 
+     border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
 } 
  
 .btn:active, 
 .btn.active, 
 .open .dropdown-toggle.btn { 
   background-image: none; 
+     border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
 } 
  
 .btn.disabled, 
@@ -127,6 +135,9 @@ fieldset[disabled] .btn:active,
 fieldset[disabled] .btn.active { 
   background-color: #6788C2; 
   border-color: #208FE3; 
+     border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
 } 
  
 .btn .badge { 
@@ -160,10 +171,13 @@ width:30%;
 input  {
    padding: 9px;  
     border: solid 1px #E5E5E5;  
-    outline: 0;  
     font: normal 13px/100% Verdana, Tahoma, sans-serif;  
     width: 50%;  
     background: #FFFFFF;
+         border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    
 }
  
 input[type=email]:focus, textarea:focus {
