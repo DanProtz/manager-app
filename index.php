@@ -84,11 +84,40 @@ margin:5% 0% 0% 0%;
 .forma {
 width:50%;
 height:25%;
-margin:3% 30% 3% 30%;
+margin:5% 30% 5% 30%;
 background:none;
 }
-input[type=submit]  {  
-    width: auto;
+
+input  {
+   padding: 9px;  
+    border: solid 1px #E5E5E5;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: 50%;  
+    background: #FFFFFF;
+         border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    
+}
+ 
+button  {
+   padding: 9px;  
+    border: solid 1px #E5E5E5;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: auto;  
+    background: #FFFFFF;
+         border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    
+}
+ 
+input[type=email]:focus, textarea:focus {
+    border-color: #C9C9C9;
+}
+
+button[type=submit]  {  
+        width: auto;  
     height:auto;
     padding: 9px 15px;  
     font-size: 15px;  
@@ -176,21 +205,7 @@ width:30%;
     margin-top:3%;
     margin-right:5%;
 }
-input  {
-   padding: 9px;  
-    border: solid 1px #E5E5E5;  
-    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
-    width: 50%;  
-    background: #FFFFFF;
-         border-radius:0px;
-    -webkit-border-radius:0px;
-    -moz-border-radius:0px;
-    
-}
- 
-input[type=email]:focus, textarea:focus {
-    border-color: #C9C9C9;
-}
+
 
 span {
     
@@ -204,6 +219,19 @@ display: block;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
+}
+.shadow-overlay {
+position: fixed;
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+overflow: hidden;
+z-index: -1;
+background: #FFFFFF;
+background: rgba(255, 255, 255,0.95 );
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha    ";
+
 }
   </style>
   
@@ -235,7 +263,7 @@ window.onload=function(){
         <form action="http://prosvest.us3.list-manage.com/subscribe/post?u=8fdf6cab91f7359a4309d5313&amp;id=4e69de2f24" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             
             <input type="email" name="EMAIL" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
-            <input type="submit" value="Reserve an account" class="btn" />
+            <button type="submit" value="Reserve an account" class="btn">Reserve an account</button>
         </form>
     </div>
     
