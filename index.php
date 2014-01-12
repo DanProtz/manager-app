@@ -12,6 +12,9 @@ body {
 height: 100%; overflow: auto; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; position: absolute; width: 100%;
 font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     background:#F4F4F2;
+    position:absolute;
+    display: block;
+
 }
 header {
  width:auto;
@@ -34,18 +37,23 @@ p {
 .container {
 width:100%;
 height:70%;
-margin:auto;
     color:white;
  background:url(http://ih0.redbubble.net/image.7083569.8278/flat,550x550,075,f.jpg)no-repeat;
 background-size:100% 120%;
+    padding-bottom:0px;
+    display: block;
+    margin-right: auto;
+margin-left: auto;
+display: table;
+content: "";
 }
 .footer {
 width:auto;
 height:30%;
-margin:auto;
 background:#F4F4F2;
 font-size:120%;
    color: #65676b;
+    display: block;
 }
 .logo {
    font-family: "Lucida Bright", Georgia, serif;
