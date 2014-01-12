@@ -8,7 +8,7 @@
     
   
   <style type='text/css'>
-  body {
+body {
 height: 100%; overflow: auto; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; position: absolute; width: 100%;
 font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     background:#F4F4F2;
@@ -197,7 +197,6 @@ display: block;
     -webkit-transition: all 1s;
     transition: all 1s;
 }
-
   </style>
   
 
