@@ -86,24 +86,26 @@ width:50%;
 height:25%;
 margin:5% 30% 5% 30%;
 background:none;
+    display:
 }
 
 input  {
    padding: 9px;  
     border: solid 1px #E5E5E5;  
-    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    font: 400 15px/100% Verdana, Tahoma, sans-serif;  
     width: 50%;  
     background: #FFFFFF;
          border-radius:0px;
     -webkit-border-radius:0px;
     -moz-border-radius:0px;
+    float:left;
     
 }
  
 button  {
-   padding: 9px;  
+   padding: 0px;
     border: solid 1px #E5E5E5;  
-    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    font:  15px/100% Verdana, Tahoma, sans-serif;  
     width: auto;  
     background: #FFFFFF;
          border-radius:0px;
@@ -119,8 +121,8 @@ input[type=email]:focus, textarea:focus {
 button[type=submit]  {  
         width: auto;  
     height:auto;
-    padding: 9px 15px;  
-    font-size: 15px;  
+    padding: 9px;  
+    font-size: 18px;  
     color: #FFFFFF;
     cursor:pointer;
     border-radius:0px;
@@ -250,6 +252,7 @@ window.onload=function(){
 
 <body>
 <div class="container">
+<div class="container">
     <span> 
                 <div class="logo">-ProsVest-</div>
 
@@ -257,15 +260,15 @@ window.onload=function(){
         Exclusive accounts with the world's best money managers.</div>
     
     <div class="bottomheadline">
-        ProsVest gives you direct access to high quality investment strategies typically available<br> only to institutions and professional wealth advisors.
+        ProsVest gives you direct access to high quality investment strategies typically available only to institutions and professional wealth advisors.
         </br>    </div>
-    <div class="forma">
+    <span class="forma">
         <form action="http://prosvest.us3.list-manage.com/subscribe/post?u=8fdf6cab91f7359a4309d5313&amp;id=4e69de2f24" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             
             <input type="email" name="EMAIL" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
             <button type="submit" value="Reserve an account" class="btn">Reserve an account</button>
         </form>
-    </div>
+    </span>
     
    
     </div>
