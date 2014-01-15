@@ -270,7 +270,7 @@ window.onload=function(){
             <input type="email" name="EMAIL" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
             <button type="submit" value="Reserve an account" class="btn">Reserve an account</button>
         </form>
-        <div class="terms">By signing up you agree to the<a href="/terms.html">Terms of Use</a> and <a href="/privacy.hmtl">Privacy Policy</a>.
+        <div class="terms">By signing up you agree to the<a href="/">Terms of Use</a> and <a href="/privacy.hmtl">Privacy Policy</a>.
             </div>
     </span>
     
