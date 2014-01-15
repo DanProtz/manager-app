@@ -34,6 +34,9 @@ h2 {
 p {
   font-size: 3vmin;
 }
+a {
+color:white;
+}
 .container {
 width:100%;
 height:70%;
@@ -252,7 +255,6 @@ window.onload=function(){
 
 <body>
 <div class="container">
-<div class="container">
     <span> 
                 <div class="logo">-ProsVest-</div>
 
@@ -262,17 +264,18 @@ window.onload=function(){
     <div class="bottomheadline">
         ProsVest gives you direct access to high quality investment strategies typically available only to institutions and professional wealth advisors.
         </br>    </div>
+
     <span class="forma">
         <form action="http://prosvest.us3.list-manage.com/subscribe/post?u=8fdf6cab91f7359a4309d5313&amp;id=4e69de2f24" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            
             <input type="email" name="EMAIL" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
             <button type="submit" value="Reserve an account" class="btn">Reserve an account</button>
         </form>
+        <div class="terms">By signing up you agree to the<a href="/">Terms of Use</a> and <a href="/">Privacy Policy</a>.
+            </div>
     </span>
     
-   
+
     </div>
-</span>
 <div class="footer">
     <div class="leftex">
         <strong>Who?</strong><br>
