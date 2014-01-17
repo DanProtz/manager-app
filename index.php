@@ -212,6 +212,7 @@ width:30%;
 }
 
 
+
 span {
     
 display: block;
@@ -224,19 +225,6 @@ display: block;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
-}
-.shadow-overlay {
-position: fixed;
-left: 0px;
-top: 0px;
-right: 0px;
-bottom: 0px;
-overflow: hidden;
-z-index: -1;
-background: #FFFFFF;
-background: rgba(255, 255, 255,0.95 );
--ms-filter: "progid:DXImageTransform.Microsoft.Alpha    ";
-
 }
   </style>
   
