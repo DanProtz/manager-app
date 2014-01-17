@@ -256,21 +256,21 @@ window.onload=function(){
 <body>
 <div class="container">
     <span> 
-                <div class="logo">-ProsVest-</div>
+                <div class="logo">ProsVest</div>
 
     <div class="headline">
         Exclusive accounts with the world's best money managers.</div>
     
     <div class="bottomheadline">
-        ProsVest gives you direct access to high quality investment strategies typically available only to institutions and professional wealth advisors.
-        </br>    </div>
+ProsVest gives you direct access to high quality investment strategies typically available only to institutions.
+            </div>
 
     <span class="forma">
         <form action="http://prosvest.us3.list-manage.com/subscribe/post?u=8fdf6cab91f7359a4309d5313&amp;id=4e69de2f24" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <input type="email" name="EMAIL" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
             <button type="submit" value="Reserve an account" class="btn">Reserve an account</button>
         </form>
-        <div class="terms">By signing up you agree to the<a href="/">Terms of Use</a> and <a href="/privacy.hmtl">Privacy Policy</a>.
+        <div class="terms">By signing up you agree to the<a href="/">Terms of Use</a> and <a href="/">Privacy Policy</a>.
             </div>
     </span>
     
@@ -283,7 +283,8 @@ window.onload=function(){
         </br> </div>
     <div class="centerex">
                 <strong>Why?</strong><br>
-Easily find and invest with the best managers without inflated commissions, fund administration costs or wealth advisor mark-ups.        </br>   </div>
+        Easily find and invest with the best managers without inflated commissions, fund administration costs or high investment minimums.
+       </br>   </div>
     <div class="rightex">
                 <strong>How?</strong><br>
         Choose from select strategies or use one of our tailored solutions.
