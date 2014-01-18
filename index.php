@@ -61,9 +61,7 @@ font-size:120%;
 .logo {
    font-family: "Lucida Bright", Georgia, serif;
         font-size:300%;
-        width:50%;
-        margin-left:40%;
-        margin-right:15%;
+       text-align:center;
 }
 .loga {
     width:auto;
