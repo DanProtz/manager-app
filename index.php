@@ -63,6 +63,9 @@ font-size:120%;
    font-family: "Lucida Bright", Georgia, serif;
 text-align:center;
         font-size:300%;
+        width:30%;
+        margin-left:30%;
+        margin-right:30%;
 }
 .loga {
     width:auto;
@@ -259,7 +262,7 @@ ProsVest gives you direct access to high quality investment strategies typically
             <input type="email" name="EMAIL" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
             <button type="submit" value="Reserve an account" class="btn">Reserve an account</button>
         </form>
-        <div class="terms">By signing up you agree to the<a href="/">Terms of Use</a> and <a href="/">Privacy Policy</a>.
+        <div class="terms">By signing up you agree to the<a href="/terms.html">Terms of Use</a> and <a href="/privacy.html">Privacy Policy</a>.
             </div>
     </span>
     
