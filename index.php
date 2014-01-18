@@ -24,7 +24,6 @@ header {
     font-size:300%;
     color:white;
     border-bottom:1px solid white;
-    text-align:center;
 }
 h1 {
   font-size: 5.9vw;
@@ -62,9 +61,9 @@ font-size:120%;
 .logo {
    font-family: "Lucida Bright", Georgia, serif;
         font-size:300%;
-        width:30%;
-        margin-left:30%;
-        margin-right:30%;
+        width:50%;
+        margin-left:40%;
+        margin-right:15%;
 }
 .loga {
     width:auto;
@@ -285,3 +284,4 @@ ProsVest gives you direct access to high quality investment strategies typically
 
 
 </html>
+
