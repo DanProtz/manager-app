@@ -24,6 +24,7 @@ header {
     font-size:300%;
     color:white;
     border-bottom:1px solid white;
+    text-align:center;
 }
 h1 {
   font-size: 5.9vw;
